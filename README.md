@@ -8,8 +8,7 @@ You have to installed following software before use of this.
 - nodejs
 - npm install -g rxjs
 
-## video
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/xxxx/0.jpg)](https://www.youtube.com/watch?v=xxxx)
+
 
 ## Release Notes
 

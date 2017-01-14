@@ -1,8 +1,8 @@
 {
   "name": "rxjs-snippets",
   "displayName": "rxjs-snippets",
-  "description": "Reactivex RxJs snippets for vscode.",
-  "version": "0.0.1",
+  "description": "Generate Reactivex rxjs code snippets for typescript/javascript.",
+  "version": "0.0.2",
   "publisher": "pkosta2006",
   "icon": "images/rxjs_icon.png",
   "license": "SEE LICENSE IN LICENSE.md",
