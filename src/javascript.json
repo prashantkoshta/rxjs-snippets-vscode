@@ -1,0 +1,14 @@
+{
+	"Angular Module": {
+		"prefix": "Observable.from",
+		"description": "from observer",
+		"body": [
+			"Observable.from(${1})",
+			".subscribe(",
+			"	value => ${2},",
+			"	e => ${3},",
+			"	() => ${4},",
+			");"
+		]
+	}
+}
