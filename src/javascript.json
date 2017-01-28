@@ -119,5 +119,22 @@
 				"}",
 			");"
 		]
+	},
+	"rxjs.Observable.timer": {
+		"prefix": "Rx.Observable.timer",
+		"description":"Returns an observable sequence that produces a value after dueTime has elapsed and then after each period.",
+		"body": [
+			"Rx.Observable.timer(dueTime, period).subscribe(",
+				"v => {",
+					"console.log('Value', v)",
+				"},",
+				"e => {",
+					"console.log('Error', e)",
+				"},",
+				"() => {",
+					"console.log('Completed')",
+				"}",
+			");"
+		]
 	}
 }
