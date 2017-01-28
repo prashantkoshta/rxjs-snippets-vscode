@@ -1,18 +1,14 @@
 # rxjs-snippets
 
-Provide feature for developer to genrate code snippets of rxjs.
+This extension for Visual Studio Code adds snippets for RxJS.
 
 ## Requirements
 
-You have to installed following software before use of this.
-- nodejs
-- npm install -g rxjs
-
-
+Make sure you have installed RxJS before using this.
 
 ## Release Notes
 
-This release include ReactiveX rxjs code snippets.
-Genrate rxjs code snippets.
+This release include ReactiveX RxJS code snippets.
+Generate RxJS code snippets.
 
 **Enjoy!**
