@@ -102,5 +102,22 @@
 				"}",
 			");"
 		]
+	},
+	"rxjs.Observable.range": {
+		"prefix": "Rx.Observable.range",
+		"description":"Generates an observable sequence of integral numbers within a specified range.",
+		"body": [
+			"Rx.Observable.range(start, count).subscribe(",
+				"v => {",
+					"console.log('Value', v)",
+				"},",
+				"e => {",
+					"console.log('Error', e)",
+				"},",
+				"() => {",
+					"console.log('Completed')",
+				"}",
+			");"
+		]
 	}
 }
