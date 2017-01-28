@@ -57,5 +57,16 @@
 			"	() => { console.log('complete') }",
 			");"
 		]
+	},
+	"rxjs.Observable.empty": {
+		"prefix": "Rx.Observable.empty",
+		"description":"Creates an Observable that emits no items to the Observer and immediately emits a complete notification.",
+		"body": [
+			"Rx.Observable.empty().subscribe(",
+				"null,",
+				"null,",
+				"() => { console.log('Completed') }",
+			");"
+		]
 	}
 }
