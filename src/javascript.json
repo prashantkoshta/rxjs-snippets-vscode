@@ -57,5 +57,84 @@
 			"	() => { console.log('complete') }",
 			");"
 		]
+	},
+	"rxjs.Observable.empty": {
+		"prefix": "Rx.Observable.empty",
+		"description":"Creates an Observable that emits no items to the Observer and immediately emits a complete notification.",
+		"body": [
+			"Rx.Observable.empty().subscribe(",
+				"null,",
+				"null,",
+				"() => { console.log('Completed') }",
+			");"
+		]
+	},
+	"rxjs.Observable.fromPromise": {
+		"prefix": "Rx.Observable.fromPromise",
+		"description":"Converts a Promises to an Observable sequence.",
+		"body": [
+			"Rx.Observable.fromPromise(fetch('someURI')).subscribe(",
+				"(resolve) => {",
+					"console.log('Resolve:',resolve)",
+				"}, ",
+				"(reject) => {",
+					"console.log('Reject:',reject)",
+				"},",
+				"() => {",
+					"console.log('Completed')",
+				"}",
+			");"	
+		]
+	},
+	"rxjs.Observable.interval": {
+		"prefix": "Rx.Observable.interval",
+		"description":"Returns an observable sequence that produces a value after each period.",
+		"body": [
+			"Rx.Observable.interval(period).subscribe(",
+				"v => {",
+					"console.log('Value', v)",
+				"},",
+				"e => {",
+					"console.log('Error', e)",
+				"},",
+				"() => {",
+					"console.log('Completed')",
+				"}",
+			");"
+		]
+	},
+	"rxjs.Observable.range": {
+		"prefix": "Rx.Observable.range",
+		"description":"Generates an observable sequence of integral numbers within a specified range.",
+		"body": [
+			"Rx.Observable.range(start, count).subscribe(",
+				"v => {",
+					"console.log('Value', v)",
+				"},",
+				"e => {",
+					"console.log('Error', e)",
+				"},",
+				"() => {",
+					"console.log('Completed')",
+				"}",
+			");"
+		]
+	},
+	"rxjs.Observable.timer": {
+		"prefix": "Rx.Observable.timer",
+		"description":"Returns an observable sequence that produces a value after dueTime has elapsed and then after each period.",
+		"body": [
+			"Rx.Observable.timer(dueTime, period).subscribe(",
+				"v => {",
+					"console.log('Value', v)",
+				"},",
+				"e => {",
+					"console.log('Error', e)",
+				"},",
+				"() => {",
+					"console.log('Completed')",
+				"}",
+			");"
+		]
 	}
 }
