@@ -68,5 +68,22 @@
 				"() => { console.log('Completed') }",
 			");"
 		]
+	},
+	"rxjs.Observable.fromPromise": {
+		"prefix": "Rx.Observable.fromPromise",
+		"description":"Converts a Promises to an Observable sequence.",
+		"body": [
+			"Rx.Observable.fromPromise(fetch('someURI')).subscribe(",
+				"(resolve) => {",
+					"console.log('Resolve:',resolve)",
+				"}, ",
+				"(reject) => {",
+					"console.log('Reject:',reject)",
+				"},",
+				"() => {",
+					"console.log('Completed')",
+				"}",
+			");"	
+		]
 	}
 }
